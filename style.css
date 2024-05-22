@@ -1,0 +1,222 @@
+body {
+
+    box-sizing: border-box;
+   margin: 0%;
+    padding: 0%; 
+}
+
+.navbar {
+width: 100vw;
+height: 15vh;
+background-color: rgba(89, 177, 177, 0.925);
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: aliceblue;
+}
+.left {
+
+    height: 100%;
+    width: 50vw;
+    display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+text-align: start;
+margin-left: 6%;
+
+}
+
+.right {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.resume {
+height: 7vh;
+width: 15vw;
+background-color: rgb(23, 62, 71);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10%;
+}
+
+.resume h3 {
+
+color: rgb(153, 181, 192);
+text-decoration: none;
+text-decoration-line: none;
+}
+
+
+.content {
+
+height: 100vh;
+width: 100vw;
+background-color: rgb(23, 105, 126);
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: aliceblue;
+}
+
+.left1 {
+
+height: 100vh;
+width: 50vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: aliceblue;
+align-items: center;
+
+}
+
+.right1 {
+    height: 100vh;
+width: 50vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(—Pngtree—abstract\ circle\ technology\ background_3527873\ \(1\).png);
+}
+
+
+.left1 h1 {
+     text-decoration: underline;
+    text-align: center;
+}
+.left1 h3 {
+    text-align: center;
+}
+
+.left1 p {
+
+    text-align: center;
+    width: 80%;
+    font-size: large;
+    
+} 
+
+
+.left1 img {
+    height: 25%;
+    width: 25%;
+}
+.footer {
+    height: 20vh;
+    width: 100vw;
+    background-color: rgba(89, 177, 177, 0.925);
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+color: aliceblue;
+}
+
+.image img {
+
+ height: 44vh;
+    width: 19vw;
+    border-radius: 50%;
+    margin-left: 384px;
+    margin-top: 200px;
+}
+
+
+.education a{
+
+    color: rgb(255, 255, 255);
+text-decoration: none;
+text-decoration-line: none;
+}
+
+.skills a {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+text-decoration-line: none;
+}
+
+.projects a {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+text-decoration-line: none;
+}
+
+.internships a {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+text-decoration-line: none;
+}
+
+.contact a{
+    color: rgb(255, 255, 255);
+text-decoration: none;
+text-decoration-line: none;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    height: 5vh;
+    width: 10vw;
+    background-color: orangered;
+
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    height: 5vh;
+    width: 10vw;
+    background-color: orangered
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    height: 5vh;
+    width: 10vw;
+    background-color: orangered
+}
+
+.internships{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    height: 5vh;
+    width: 10vw;
+    background-color: orangered
+}
+
+.contact {
+
+    height: 5vh;
+    width: 10vw;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+
+}
