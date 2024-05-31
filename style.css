@@ -3,6 +3,7 @@ body {
     box-sizing: border-box;
    margin: 0%;
     padding: 0%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
@@ -100,8 +101,8 @@ background-image: url(—Pngtree—abstract\ circle\ technology\ background_3527
 
 .left1 p {
 
-    text-align: center;
-    width: 80%;
+    text-align: start;
+    width: 75%;
     font-size: large;
     
 } 
@@ -220,3 +221,25 @@ text-decoration-line: none;
     border-radius: 10%;
 
 }
+
+
+
+@media (max-width:600px) {
+
+    .navbar {
+height: 60px;
+padding: 0 5vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: aliceblue;
+
+    }
+
+    .right {
+        display: none;
+    }
+
+
+}
+
